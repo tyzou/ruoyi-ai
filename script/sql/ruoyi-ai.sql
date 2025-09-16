@@ -112,6 +112,7 @@ CREATE TABLE `chat_model`  (
                                `api_host` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '请求地址',
                                `api_key` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '密钥',
                                `api_url` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '请求后缀',
+                               `priority` int(10) NULL DEFAULT NULL COMMENT '优先级',
                                `create_dept` bigint(20) NULL DEFAULT NULL COMMENT '创建部门',
                                `create_by` bigint(20) NULL DEFAULT NULL COMMENT '创建者',
                                `create_time` datetime NULL DEFAULT NULL COMMENT '创建时间',
